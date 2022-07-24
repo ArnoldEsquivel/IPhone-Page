@@ -1,0 +1,75 @@
+body {
+    background-color: #111;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.nav-text-font-size {
+    font-size: 14px;
+}
+
+#first-3d-effect {
+    transform-style: preserve-3d;
+}
+
+#first-3d-animation {
+    z-index: 1;
+    transform: translateZ(-10px) scale(2);
+}
+
+#second-3d-animation {
+    z-index: -1;
+    transform: translateZ(-5px) scale(1.5);
+}
+
+#third-3d-animation {
+    z-index: 1;
+    transform: translateZ(-5) scale(1.5);
+}
+
+.container-text-font-size {
+    font-size: 90px;
+    font-weight: 660;
+    padding: 18px;
+    max-width: 900px;
+}
+
+.change-background-to-black {
+    background-color: black;
+}
+
+.container-text-paragraph {
+    font-size: 30px;
+    padding: 18px;
+    max-width: 1100px;
+    color: #AAAA;
+    font-weight: 600;
+}
+
+.container-text-paragraph2 {
+    font-size: 24px;
+    padding: 18px;
+    max-width: 900px;
+    color: #AAAA;
+    font-weight: 600;
+}
+
+.link-with-hover-white {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 30px;
+}
+
+.link-with-hover-white:hover {
+    text-decoration: underline;
+}
+
+
+
+
